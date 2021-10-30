@@ -109,7 +109,7 @@ export default function Header() {
           <Link to="/chat">Chat</Link>
         </li>
       </ul> */}
-      <header id="header" className="fixed-top">
+      {/* <header id="header" className="fixed-top">
         <div className="container d-flex align-items-center">
           <h1 className="logo me-auto">
             <a href="index.html">Mentor</a>
@@ -213,7 +213,7 @@ export default function Header() {
             </a>
           </div>
         </section>
-      </header>
+      </header> */}
     </div>
   );
 }
