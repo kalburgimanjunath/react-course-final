@@ -1,4 +1,13 @@
 @import './assets/vendor/animate/animate.css';
 @import './assets/vendor/aos/aos.css';
 @import './assets/vendor/boxicons/css/boxicons.css';
+@import './assets/vendor/remixicon/remixicon.css';
+@import './assets/vendor/swiper/swiper-bundle.min.css';
 @import './assets/css/style.css';
+#hero {
+  width: 100%;
+  height: 80vh;
+  background: url('.img/hero-bg.jpg') top center;
+  background-size: cover;
+  position: relative;
+}
