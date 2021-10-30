@@ -39,8 +39,12 @@ export default function App() {
         <Route path="/playcourse">
           <PlayCourse />
         </Route>
+        <Route path="./home">
+          <Home />
+        </Route>
         <Route path={`/course/:topicId`} children={<Topics />}></Route>
         <Route path="/*" exact>
+          <h1>Home</h1>
           <Home />
         </Route>
       </Switch>
